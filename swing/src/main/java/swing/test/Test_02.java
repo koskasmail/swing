@@ -113,11 +113,12 @@ public class Test_02 implements ActionListener {
 		
 		if ( (stUser.equals("jron")) && stPassWord.equals("jron" ) ) {
 //				lblStatus.setText("Yeaa...." + stUser + " " + stPassWord);
-				lblStatus.setText("user and password are currect" + txtUser.getText());
+//				lblStatus.setText("user and password are currect " + txtUser.getText());
+				lblStatus.setText(" " + txtUser.getText() + "  <OK> ");
 		}
 		else
 		{
-				lblStatus.setText("  Naaa...." + stUser + " " + stPassWord + " is wrong");
+				lblStatus.setText(" " + txtUser.getText() + " <The computer say  NO> ");
 		}
 		
 		/// System.out.println("password: " + txtPassword.getText()); /// 

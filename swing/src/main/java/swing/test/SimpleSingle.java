@@ -4,8 +4,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 
 public class SimpleSingle {
-
-	public static void main(String[] args) {
+	
+	public SimpleSingle() {
 		JFrame frame = new JFrame("Simple Single");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(320, 100);
@@ -16,6 +16,10 @@ public class SimpleSingle {
 
 		frame.add(button);
 		frame.setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new SimpleSingle();
 	}
 
 }
